@@ -57,7 +57,8 @@ h1.uppertext {
 .textbg {
     background-color: black;
     color: white;
-    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .panel2 {
@@ -79,6 +80,24 @@ h1.uppertext {
     gap: 60px;
     padding: 40px;
     background-color: #f0f0f0;
+}
+
+.visit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #00b4db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.visit-btn:hover {
+    background-color: #0080a0;
 }
 
 .box {
