@@ -111,7 +111,17 @@ h1.uppertext {
     justify-content: center;
     gap: 60px;
     padding: 40px;
-    background-color: #E3F2FD;
+    background-color: #EAE4D5;
+}
+
+/* Services Section */
+.panel5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+background-color: #E3F2FD;
 }
 
 .visit-btn {
@@ -174,6 +184,9 @@ h1.uppertext {
 }
 
 .content1 {
+    border-top:1px solid transparent;
+         box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* shadow on top */
+
     background-color:#E3F2FD	;
 }
 
@@ -183,6 +196,8 @@ h1.uppertext {
 }
 
 .content2 {
+     border-top:1px solid transparent;
+         box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* shadow on top */
     background-color:#F3E5F5	;
 }
 
