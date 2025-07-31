@@ -85,8 +85,9 @@ body {
 }
 
 .skills-grid span:hover {
-  background: #238636;
+  background: #30b8b8;
   transform: scale(1.05);
+  color: #000;
 }
 
 
