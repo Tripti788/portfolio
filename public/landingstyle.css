@@ -354,15 +354,15 @@ background-color: #E3F2FD;
          box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* shadow on top */
     background-color:#F3E5F5	;
 }
-
 form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 400px;
+  width: 90%;
   max-width: 500px;
   margin: auto;
 }
+
 
 input, textarea {
   padding: 0.75rem;
