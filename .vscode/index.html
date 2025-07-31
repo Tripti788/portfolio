@@ -1,36 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Komal | Full Stack Developer</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripti's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-  <header>
-    <div class="container">
-      <h1>Komal Thakur</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+<div>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Hi, I'm Komal 👩‍💻</h2>
-      <p>Full Stack Web Developer passionate about building responsive web apps.</p>
-      <a href="#projects" class="btn">View Projects</a>
-    </div>
-  </section>
+   <header class="navbar hidden">
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+       <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+     
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <section id="about" class="section">
+    <div class="container_one" id="home">
+      
+          <div class="background-blur"></div>
+        <div class="shadow-box">
+        <div class="text">
+            <h1>Hello, <span class="small">I am Tripti</span></h1> 
+            <h1 class="uppertext">Full Stack Web Developer</h1>
+        </div>
+       </div>
+    </div>
+    <div class="about_me">
+     <section id="about" class="section">
     <div class="container">
       <h2>About Me</h2>
-      <p>I’m a full stack developer skilled in HTML, CSS, JavaScript, Node.js and MongoDB. I love turning ideas into real products and solving problems with clean code.</p>
+      <p>I’m a passionate full-stack developer with hands-on experience in building dynamic and responsive web applications using the MERN stack (MongoDB, Express, React, Node.js). I specialize in creating clean user interfaces, managing backend APIs, and deploying scalable applications. I enjoy turning complex problems into simple, efficient solutions and constantly strive to improve my skills by taking on real-world projects. Whether it’s designing a frontend layout, handling data flow with React hooks, or integrating a secure backend, I aim to deliver smooth and impactful user experiences.</p>
     </div>
   </section>
 
@@ -41,6 +48,10 @@
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>
+         <span>React</span>
+          <span>MySQL</span>
+           <span>C++</span>
+
         <span>Node.js</span>
         <span>MongoDB</span>
         <span>Git</span>
@@ -50,42 +61,145 @@
     </div>
   </section>
 
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="projects">
-        <div class="project">
-          <h3>Chattr App</h3>
-          <p>Real-time chat app using Socket.io and MongoDB.</p>
-          <a href="#">View Demo</a>
-        </div>
-        <div class="project">
-          <h3>Job Recommender</h3>
-          <p>Suggests job titles based on your skills using React and MongoDB.</p>
-          <a href="#">View Demo</a>
-        </div>
-      </div>
+  </div>
+    <div class="textbg">
+        <div class="panel2">Work, I can do for <span>you...</span></div>
     </div>
-  </section>
 
-  <section id="contact" class="section">
-    <div class="container">
+    <div class="panel3" id="skills">
+       <div class="contain1 box">
+  <div class="content">
+    <div class="box-img" style="background-image: url('webd.jpg');"></div>
+    <div class="skill_text">
+      <h2>Full Stack Development</h2>
+      <p>
+        I develop end-to-end web applications using the MERN stack (MongoDB, Express, React, Node.js). From designing responsive frontends to building scalable and secure backends, I ensure seamless user experiences, robust APIs, and efficient database integration.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+         <div class="contain1 box">
+            <div class="content">
+                <div class="box-img" style="background-image: url('database.jpg');"></div>
+                <div class="skill_text">
+                <h2>SQL & Databases</h2>
+                <p> I have experience working with relational databases like MySQL and PostgreSQL. I can design efficient database schemas, write complex queries, optimize performance, and manage data securely for web applications..</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contain3 box">
+            <div class="content">
+                <div class="box-img" style="background-image: url('dsa.jpg');"></div>
+                 <div class="skill_text">
+                    <h2>DSA</h2>
+                <p>I have strong problem-solving skills using Data Structures and Algorithms.  I can  solve complex coding problems optimizing time and space complexity.</p>
+                 </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="textbg">
+    <div class="panel2">About My <span>Projects</span></div>
+</div>
+
+<div class="panel5" id="projects">
+    <!-- Peer_learning -->
+     <div class="contain1 box">
+        <div class="content">
+            <a href="https://peer-learning-la3n.vercel.app" target="_blank">
+                <div class="box-img" style="background-image: url('peer.png');"></div>
+            </a>
+            
+            <div class="skill_text">
+                <h2>Peer learning App</h2>
+                <p>The Peer Learning App is a community-driven platform designed to promote collaborative learning. Users can ask questions, share answers, and support each other through a structured peer-to-peer interaction system.</p>
+                <a href="https://peer-learning-la3n.vercel.app/"target="_blank" class="visit-btn">Visit App</a>
+                <a href="https://github.com/Tripti788/peer_learning" target="_blank" class="visit-btn"> Visit code</a>
+
+            </div>
+        </div>
+    </div>
+<!-- job recomender -->
+    <div class="contain1 box">
+  <div class="content">
+    <a href="https://job-recomender.vercel.app" target="_blank">
+      <div class="box-img" style="background-image: url('job.png');"></div>
+    </a>
+    <div class="skill_text">
+      <h2>Job Recommender App</h2>
+      <p>The Job Recommender app suggests suitable job titles based on user-entered skills using a smart matching system, helping users discover relevant career options.</p>
+      <a href="https://job-recomender.vercel.app" target="_blank" class="visit-btn">Visit App</a>
+      <a href="https://github.com/Tripti788/job_recomender" target="_blank" class="visit-btn"> Visit code</a>
+    </div>
+  </div>
+</div>
+
+
+
+     <!-- ChatHub -->
+     <div class="contain1 box">
+        <div class="content">
+            <a href="https://chat-hub-navy.vercel.app">
+            <div class="box-img" style="background-image: url('chat.png');"></div>
+
+            </a>
+            <div class="skill_text">
+                <h2>ChatHub App</h2>
+                <p>ChatHub is a real-time private messaging web app built with the MERN stack and Socket.IO, enabling users to register, log in, and chat instantly with others.
+
+</p>
+                <a href="https://chat-hub-navy.vercel.app/"target="_blank" class="visit-btn">Visit App</a>
+                <a href="https://github.com/Tripti788/chatHub" target="_blank" class="visit-btn"> Visit code</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Todo List -->
+    <div class="contain1 box">
+        <div class="content">
+            <a href="https://to-do-app-five-ivory.vercel.app/"target="_blank">
+                            <div class="box-img" style="background-image: url('todo.png');"></div>
+
+            </a>
+            <div class="skill_text">
+                <h2>Todo List App</h2>
+                <p>A simple and efficient todo list application to help manage daily tasks with add, delete, and edit functionality.</p>
+                <a href="https://to-do-app-five-ivory.vercel.app/"target="_blank" class="visit-btn">Visit App</a>
+                <a href="https://github.com/Tripti788/Todo_app" target="_blank" class="visit-btn"> Visit code</a>
+
+            </div>
+        </div>
+    </div>
+
+   
+   
+</div>
+
+
+    <div class="panel4">        
+        
       <h2>Contact</h2>
-      <form id="contactForm">
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Message" rows="5" required></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-  </section>
+      <form id="contactForm" action="https://formspree.io/f/mblklneo" method="POST">
+  <input type="text" name="name" placeholder="Name" required />
+  <input type="email" name="email" placeholder="Email" required />
+  <textarea name="message" placeholder="Message" rows="5" required></textarea>
+  <button type="submit">Send</button>
+</form>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Komal Thakur. All rights reserved.</p>
-    </div>
-  </footer>
+  
+  </div>
 
-  <script src="script.js"></script>
+    <div class="last">
+        <p><center>Thank you for your valuable time.. &#9829 &#9829 </center></p>
+    </div>
+
+       <script src="script.js"></script>
+
 </body>
 </html>
