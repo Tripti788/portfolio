@@ -13,18 +13,17 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Container with responsive background image */
-.container_one {
+/* Container with responsive background image */.container_one {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
     overflow: hidden;
-    
 }
+
 
 .container {
   width: 100%;
